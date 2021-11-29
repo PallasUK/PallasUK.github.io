@@ -1,19 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:300);
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
 
 .footer {
-  /*position: absolute;*/
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 300px;
+  height: 200px;
 }
 
 /* Taller footer on small screens */
 @media (max-width: 34em) {
     body {
-      margin-bottom: 500px;
+      margin-bottom: 400px;
     }
     .footer {
-      height: 500px;
+      height: 400px;
     }
 }
 
