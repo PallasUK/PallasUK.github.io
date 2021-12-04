@@ -11,12 +11,14 @@
   <link href="./css/bootstrap.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
+  <link href="./css/bootstrap.solar.css" rel="stylesheet">
   <link href="./css/bootstrap.pallas.css" rel="stylesheet">
+
 </head>
 <body>
 <header>
-  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
-    <a id="navbarLinkLogo" class="navbarLinkLogo navbar-brand" href="index.html">
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <a id="navbarLinkLogo" class="navbarLinkLogo navbar-brand ps-2" href="index.html">
       <img id="navbarImgLogo" width=60px; height=50px; src="images/pallas-image.png" class="d-inline-block" alt="Pallas Logo">
     </a>
     <a id="navbarLinkName" class="navbar-brand" href="index.html">Pallas</a>
@@ -28,8 +30,8 @@
     <div class="collapse navbar-collapse justify-content-end navbarDivCollapse" id="navbarDivCollapse">
       <!-- Added so the unordered list can left justify. -->
       <div class="container-fluid"></div>
-      <!-- The navbar options, css makes sure an decent width -->
-      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+      <!-- The navbar options, css makes sure an decent width, pe adds padding to the right -->
+      <ul class="navbar-nav me-auto mb-2 mb-md-0 pe-2">
         <li class="nav-item">
           <a id="navbarLinkHome" class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
@@ -48,7 +50,7 @@
 </header>
 
 <main>
-  <div id="mainDivPallasDescriptionCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div id="mainDivPallasDescriptionCarousel" class="carousel slide bg-dark" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#mainDivPallasDescriptionCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#mainDivPallasDescriptionCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -56,33 +58,21 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
-        <div class="container">
-          <div class="carousel-caption text-start">
-            <h1>Big Data Analysis Made Simple</h1>
-            <p>Looking to bring simplicity and scalability to an ever change data landscape, ensuring those who need information have when they need it.</p>
-          </div>
+        <div class="carousel-caption text-start">
+          <h1>Big Data Analysis Made Simple</h1>
+          <p>Looking to bring simplicity and scalability to an ever change data landscape, ensuring those who need information have when they need it.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Secure by default</h1>
-            <p>As a Cheltenham based IT Consultancy we have spent years ensuring software is developed and deployed with layers of security, to ensure your data is safe</p>
-          </div>
+        <div class="carousel-caption">
+          <h1>Secure by default</h1>
+          <p>As a Cheltenham based IT Consultancy we have spent years ensuring software is developed and deployed with layers of security, to ensure your data is safe</p>
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
-        <div class="container">
-          <div class="carousel-caption text-end">
-            <h1>Your Mission is our Priority</h1>
-            <p>We take pride in learning what your mission is and ensuring our solution is tailored to suit your needs</p>
-          </div>
+        <div class="carousel-caption text-end">
+          <h1>Your Mission is our Priority</h1>
+          <p>We take pride in learning what your mission is and ensuring our solution is tailored to suit your needs</p>
         </div>
       </div>
     </div>
@@ -113,7 +103,7 @@
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading">DevSecOps<span class="text-muted"> enabling agility</span></h2>
-        <p class="lead">We take Agile principles seriously and will allows look to tailor a process to best suit your needs from a simple Agile Scrum team to operating under fail fast and are happy to train and support teams on their agile journey.</p>
+        <p class="lead">As keen advocates for DevSecOps, we will look to choose tools and processes to best suit your needs. Our goal is to bring tailored consistent repeatable process to the projects we consult on. This allows our customers to be more confident in bringing changes quickly to production.</p>
       </div>
       <div class="col-md-5 order-md-1">
         <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="images/devsecops.png" alt="DevSecOps Cycle" />
@@ -121,18 +111,15 @@
     </div>
 
     <hr class="featurette-divider">
-
     <div class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading">Digital Transformation<span class="text-muted"> ensuring the future</span></h2>
-        <p class="lead">We are always keen to engage with new technologies and approaches, looking to understand how they can best suite our customers</p>
+        <p class="lead">If you are looking to migrate to the cloud, redesign existing solutions to fit new architectures or simply migrate software from legacy hardware, we are here to enable your vision of digital transformation.</p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
+       <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="images/digitaltransformation.png" alt="Digital Transformation Approach" />
       </div>
     </div>
-
     <hr class="featurette-divider">
   </div>
 </main>
