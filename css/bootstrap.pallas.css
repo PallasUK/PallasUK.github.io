@@ -5,6 +5,16 @@ body {
 
 }
 
+/* CUSTOMIZE THE Navbar
+-------------------------------------------------- */
+.navbarLinkLogo {
+ padding-left: 1rem;
+}
+
+.navbarDivCollapse {
+padding-right: 1rem;
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
