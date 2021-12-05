@@ -12,6 +12,10 @@ h2.featurette-heading {
     color: #fff;
 }
 
+span.text-muted {
+    font-style: italic;
+}
+
 /*
  * Carousel CSS to keep things well spaced
  * -------------------------------------------------- */
