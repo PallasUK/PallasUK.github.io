@@ -72,3 +72,11 @@ span.text-muted {
   }
 }
 
+/*
+ * content-specific
+ * -------------------------------------------------- */
+.pallas-content {
+  min-width: 100%;
+  padding-top: 7rem;
+}
+
