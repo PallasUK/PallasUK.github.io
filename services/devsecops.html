@@ -52,71 +52,54 @@
   </nav>
 </header>
 
-<main>
-  <div class="container-fluid py-5">
-    <div class="row pb-3 py-5">
-      <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1"></div>
-      <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10 bg-dark">
-        <h1 class="display-4">DevSecOps</h1>
-        <p>Everyone knows you are supposed to implement Devops or DevSecOps, but what is a Site Reliability Engineer and why would you want DevOps Engineers? Why is Infrastructure as Code (IaC) important? Do you know if you have developed a 12 factor application? Pallas is can provide consultancy on what your software project needs and what to considering when implementing effective DevSecOps within your organisation and teams.</p>
-      </div>
-      <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1"></div>
-    </div>
-    <div class="row">
-    <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1"></div>
-    <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
-      <h1 class="display-4 text-end">What is DevSecOps?</h1>
-    </div>
-    <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1"></div>
-  </div>
-    <div class="row">
+<main role="main">
+  <div class="container-fluid pt-5">
+    <div class="row featurette pt-5">
       <div class="col-md-1 col-lg-1 col-xl-1 col-xxl-1"></div>
       <div class="col-md-5 col-lg-5 col-xl-5 col-xxl-5">
         <img alt="Agile Scrum Development Diagram" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" height="500" src="../images/devsecops.png"
              width="500"/>
       </div>
       <div class="col-md-5 col-lg-5 col-xl-5 col-xxl-5">
-        <p>The DevOps movement was not started from a single manifesto, instead it grew from a desire to improve on the status quo. For many years development and operations teams operated as seperate isolatated teams. This meant developers would not understand the needs of a production environment and operations staff would not trust software produced by developers.</p>
-        <p>The goal was to break down the barriers between teams so developers would push early versions into production environments  and operations staff would be able to provide feedback. Operations staff could then bring their tooling into development so staff used a consistent set of tools. This helped reduce the software development lifecycle as software didn't need to be repackaged and by being involved early in development operations staff were more confident in continiously deploying the software into production.</p>
-
+        <h1 class="featurette-heading text-end">What is DevSecOps?</h1>
+        <p class="lead" >The DevOps movement was not started from a single manifesto, instead it grew from a desire to improve on the status quo. For many years development and operations teams operated as seperate isolatated teams. This meant developers would not understand the needs of a production environment and operations staff would not trust software produced by developers.</p>
       </div>
       <div class="col-md-1 col-lg-1 col-xl-1 col-xxl-1"></div>
     </div>
     <div class="row">
       <div class="col-md-1 col-lg-1 col-xl-1 col-xxl-1"></div>
-      <div class="col-md-10 col-lg-10 col-xxl-10">
-        <p>This has meant production requirements have moved upstream and become development requirements. One of the common constraints on operations staff were quality assurance processes. This lead to development teams incorporating tooling to find code vulnerabilities, demonstrate appropriate code coverage and automate the quality assurance process. The increased focus on software quality improved the trust Operations staff have in the software they deploy.</p>
-        <p>Operations staff also have to work with Information Security (INFOSEC), the environments they create, the means to deploy software, etc.. need to be vetted and approved by information security. Many DevOps teams have developed software which did not meet information security requirements and had to be extensivily refactored. This lead it involving information security in all parts of the software development lifecycle and so the term DevSecOps was born.</p>
-     </div>
-     <div class="col-md-1 col-lg-1 col-xl-1 col-xxl-1"></div>
-  </div>
-  <hr class="featurette-divider">
-  <div class="row">
-    <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1"></div>
-    <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
-      <h1 class="display-4">What can we do to help?</h1>
+      <div class="col-md-10 col-lg-10 col-xl-10 col-xxl-10">
+        <p>The goal was to break down the barriers between teams operations staff would provide development environments which reflect the production environments with the same constraints which would allow the same tooling to be used in both environments. This allows developers to better understand the target environment reducing integration and deployment issues.</p>
+        <p>Operations staff often operate under <a href="https://www.itil.org.uk/">ITIL</a> and are primarily concerned about operating software as a service for users. This means assurance is highly important to operations staff and so developers started looking at providing the assurance. This lead to development teams incorporating tooling to find code vulnerabilities, demonstrate appropriate code coverage and automate the quality assurance process. The increased focus on software quality improved the trust Operations staff have in the software they deploy.</p>
+        <p>Operations staff also have to work with Information Security (INFOSEC) concerning the environments they create and support. Many DevOps teams have developed software which did not meet information security requirements and had to be extensivily refactored. This lead to DevOps teams involving information security in all parts of the software development lifecycle and so the term DevSecOps was born.</p>
+      </div>
+      <div class="col-md-1 col-lg-1 col-xl-1 col-xxl-1"></div>
     </div>
-    <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1"></div>
-  </div>
-  <div class="row">
-    <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1"></div>
-    <div class="col-sm-5 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
-      <p>The Pallas team have been responsible for support of large crictical infrastructure and development of small research projects (and everything in between). We understand that DevSecOps isn't a fixed set of processes or tools and continious integration (CI) and continious delivery (CD) should be built around the needs of the project.</p>
-      <p>We constantly try new technologies and approaches and evaluating them to understand where they provide the most benefit. Everyone in Pallas has expearence in legacy platforms, containerisation, Kubernetes and Cloud Serverless (AWS Lambda/Azure Functions) and can provide advice on which solution meets your requirements.</p>
-      <p>Operations teams operate under ITIL and Kanban while most Development teams use Agile Scrum and we have expearence. We have run a number of DevSecOps teams and have expearence integrating Operational Support with Agile Development.</p>
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-1 col-lg-1 col-xl-1 col-xxl-1"></div>
+      <div class="col-md-5 col-lg-5 col-xl-5 col-xxl-5">
+        <h1 class="featurette-heading">What can we do to help?</h1>
+        <p class="lead" >The Pallas team have been responsible for support of large crictical infrastructure and development of small research projects (and everything in between). We understand that DevSecOps isn't a fixed set of processes or tools and continious integration (CI) and continious delivery (CD) should be built around the needs of the project.</p>
+      </div>
+      <div class="col-sm-5 col-md-5 col-lg-5 col-xl-5 col-xxl-5 pt-5">
+        <ul>
+          <li>Establish delivery pipelines</li>
+          <li>Integration of assurance into CI/CD</li>
+          <li>Identifying Metrics from CI/CD to enable project tracking</li>
+          <li>Coaching of Operations and Development staff</li>
+          <li>Coaching on Onion and Stride security models</li>
+          <li>Standardisation of CI/CD pipelines to reduce technical debt</li>
+        </ul>
+      </div>
     </div>
-    <div class="col-sm-5 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
-      <ul>
-        <li>Establish delivery pipelines</li>
-        <li>Integration of assurance into CI/CD</li>
-        <li>Identifying Metrics from CI/CD to enable project tracking</li>
-        <li>Coaching of Operations and Development staff</li>
-        <li>Coaching on Onion and Stride security models</li>
-        <li>Standardisation of CI/CD pipelines to reduce technical debt</li>
-      </ul>
+    <div class="row">
+      <div class="col-md-1 col-lg-1 col-xl-1 col-xxl-1"></div>
+      <div class="col-md-10 col-lg-10 col-xl-10 col-xxl-10">
+        <p>We are constantly trying new technologies and approaches in order to understand where they can provide the most benefit. Everyone in Pallas has expearence in legacy platforms, containerisation, Kubernetes and Serverless Cloud (AWS Lambda/Azure Functions) and can provide advice on which solution best meets your requirements.</p>
+        <p>Operations teams operate under ITIL and Kanban while most Development teams use Agile Scrum and we have expearence. We have run a number of DevSecOps teams and have expearence integrating Operational Support with Agile Development.</p>
+      </div>
     </div>
-    <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1"></div>
-  </div>
   </div>
 </main>
 
