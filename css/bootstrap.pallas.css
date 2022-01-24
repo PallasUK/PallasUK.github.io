@@ -34,6 +34,7 @@ span.text-muted {
 
 div.content {
   padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
 }
 
 img.content {
@@ -45,12 +46,9 @@ img.content {
 
 div.content-row {
   padding-top: 3rem !important;
-  padding-bottom: 3rem !important;
   padding-right: 3rem !important;
   padding-left: 3rem !important;
 }
-
-
 
 /*
  * Declare different heights becausewe have used
