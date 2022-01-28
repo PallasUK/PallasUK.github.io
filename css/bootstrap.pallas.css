@@ -5,6 +5,10 @@ body {
 
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Featurette changes, used stock theme this
  * modifies to help keep parts highly visible
 -------------------------------------------------- */
