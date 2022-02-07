@@ -38,7 +38,7 @@
           <a aria-current="page" class="nav-link" href="../" id="navbarLinkHome">Home</a>
         </li>
         <li class="nav-item">
-          <a aria-current="page" class="nav-link" href="../services" id="navbarLinkHome">Services</a>
+          <a aria-current="page" class="nav-link" href="../services" id="navbarLinkServices">Services</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="../teams" id="navbarLinkTeam">Team</a>
@@ -67,46 +67,71 @@
         <p>Steve can often be found researching new technologies looking to understand how they can be used to improve existing approaches or enable the processing and analysis of big data. He has a keen interest in solving the problem of processing the ever changing data landscape.</p>
         <p>He spends most of his time automating his own home or finding excuses to see steam trains with his son.</p>
         <br>
-        <h2>Skills & Technologies</h2>
-        <div class="table-responsive">
-          <table class="table table-dark">
-            <tr>
-                <td class="lead col-md-5">Configuration Management</td>
-                <td class="col-md-8">Ansible, AWX, Foreman, Helm, Puppet</td>
-            </tr>
-            <tr>
-                <td class="lead col-md-5">Cloud</td>
-                <td class="col-md-8">AWS EC2, AWS EKS, AWS Lambda, AWS RDS, AWS S3, Azure API Gateway, Azure Functions, Azure Service Bus, Azure VM</td>
-            </tr>
-            <tr>
-                <td class="lead col-md-5">Data modelling and design</td>
-                <td class="col-md-8">Avro, Camel, Elastic Search, MongoDB, Postgres</td>
-            </tr>
-            <tr>
-                <td class="lead col-md-5">Data Visualisation</td>
-                <td class="col-md-8">Bootstrap, C3.js, D3.js, Datatables</td>
-            </tr>
-            <tr>
-                <td class="lead col-md-5">Release and deployment</td>
-                <td class="col-md-8">Ansible, AWX, Foreman, Helm, Maven, NPM, Nexus, Puppet, Setuptools</td>
-            </tr>
-            <tr>
-                <td class="lead col-md-5">Software Design</td>
-                <td class="col-md-8">Draw.io, Enterprise Architect, Swagger, UML</td>
-            </tr>
-            <tr>
-                <td class="lead col-md-5">Software Development</td>
-                <td class="col-md-8">Java, Groovy, Node.JS, Ruby, Python</td>
-            </tr>
-            <tr>
-                <td class="lead col-md-5">Systems Integration and Build</td>
-                <td class="col-md-8">Bamboo, Concourse CI, GitHub Actions, Jenkins, Maven, Nexus, NPM, Setuptools</td>
-            </tr>
-            <tr>
-                <td class="lead col-md-5">Testing</td>
-                <td class="col-md-8">JMeter, JUnit, Mocha, Rake, Selenium, Watir</td>
-            </tr>
-          </table>
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Skills & Technologies
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div class="table-responsive">
+                  <table class="table table-dark">
+                    <tr>
+                      <td class="lead col-md-5">Configuration Management</td>
+                      <td class="col-md-8">Ansible, AWX, Foreman, Helm, Puppet</td>
+                    </tr>
+                    <tr>
+                      <td class="lead col-md-5">Cloud</td>
+                      <td class="col-md-8">AWS EC2, AWS EKS, AWS Lambda, AWS RDS, AWS S3, Azure API Gateway, Azure Functions, Azure Service Bus, Azure VM</td>
+                    </tr>
+                    <tr>
+                      <td class="lead col-md-5">Data modelling and design</td>
+                      <td class="col-md-8">Avro, Camel, Elastic Search, MongoDB, Postgres</td>
+                    </tr>
+                    <tr>
+                      <td class="lead col-md-5">Data Visualisation</td>
+                      <td class="col-md-8">Bootstrap, C3.js, D3.js, Datatables</td>
+                    </tr>
+                    <tr>
+                      <td class="lead col-md-5">Release and deployment</td>
+                      <td class="col-md-8">Ansible, AWX, Foreman, Helm, Maven, NPM, Nexus, Puppet, Setuptools</td>
+                    </tr>
+                    <tr>
+                      <td class="lead col-md-5">Software Design</td>
+                      <td class="col-md-8">Draw.io, Enterprise Architect, Swagger, UML</td>
+                    </tr>
+                    <tr>
+                      <td class="lead col-md-5">Software Development</td>
+                      <td class="col-md-8">Java, Groovy, Node.JS, Ruby, Python</td>
+                    </tr>
+                    <tr>
+                      <td class="lead col-md-5">Systems Integration and Build</td>
+                      <td class="col-md-8">Bamboo, Concourse CI, GitHub Actions, Jenkins, Maven, Nexus, NPM, Setuptools</td>
+                    </tr>
+                    <tr>
+                      <td class="lead col-md-5">Testing</td>
+                      <td class="col-md-8">JMeter, JUnit, Mocha, Rake, Selenium, Watir</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Experience
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
