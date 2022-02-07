@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta content="Provides information on Matthew Barrett one of Pallas co-founders." name="description">
+  <meta content="Provides information on Ahren Cox-Walker one of Pallas co-founders." name="description">
   <meta content="Pallas, people team" name="keywords">
   <meta content="Ahren Cox-Walker" name="author">
   <title>Ahren Cox-Walker</title>
@@ -38,7 +38,7 @@
           <a aria-current="page" class="nav-link" href="../" id="navbarLinkHome">Home</a>
         </li>
         <li class="nav-item">
-          <a aria-current="page" class="nav-link" href="../services" id="navbarLinkHome">Services</a>
+          <a aria-current="page" class="nav-link" href="../services" id="navbarLinkServices">Services</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="../teams" id="navbarLinkTeam">Team</a>
@@ -52,13 +52,96 @@
   <!-- Describe the Members of the organisation -->
   <div class="container-fluid content">
     <div class="row content-row">
-      <div class="col-md-3 col-lg-3 col-xl-3 d-flex card">
-        <img alt="Picture of Ahren" class="bd-placeholder-img card-img-top img-fluid mx-auto" height="auto" src="../images/team/ahren-large.png"
+      <div class="col-sm-6 col-md-5 col-lg-3 col-xl-3 d-flex card" id="bioImage">
+        <img alt="Picture of Ahren" class="bd-placeholder-img card-img-top img-fluid content mx-auto" height="auto" src="../images/team/ahren-large.jpg"
              width="100%"/>
+        <div class="text-center py-3" id="bioSocialMedia">
+          <a class="me-5 text-reset" href="https://twitter.com/stevecrox0914" id="bioTwitter"><i class="fab fa-twitter"></i></a>
+          <a class="me-5 text-reset" href="https://uk.linkedin.com/in/stephen-crocker-5b214532" id="bioLinkedin"><i class="fab fa-linkedin"></i></a>
+          <a class="text-reset" href="https://github.com/stevecrox" id="bioGitHub"><i class="fab fa-github"></i></a>
+        </div>
       </div>
-      <div class="col-md-7 col-lg-7 col-xl-7">
+      <div class="col-sm-6 col-md-7 col-lg-9 col-xl-9" id="bio">
         <h2>Ahren - Founder</h2>
-        <p>Personal Bio.</p>
+        <p>Ahren has been providing technical leadership for 3 DevSecOps teams delivering 3 separate mission critical products. He has performed as a software architect designing modern cloud solutions for existing customer products, while also performing sustainment activities for the existing legacy solutions.</p>
+        <p>He has been working with different levels of stakeholders, from end users to technical experts within his customer helping manage their expectations and working to understand their needs. He has been providing technical consultancy to the customer to help guide their decision on cloud adoption.</p>
+        <div class="accordion" id="bioAccordionParts">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="skillsAndTechHeader">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#skillsAndTechCollapseElement" aria-expanded="true" aria-controls="skillsAndTechCollapseElement">
+                Skills & Technologies
+              </button>
+            </h2>
+            <div id="skillsAndTechCollapseElement" class="accordion-collapse collapse" aria-labelledby="skillsAndTechHeader" data-bs-parent="#bioAccordionParts">
+              <div class="accordion-body">
+                <div class="table-responsive">
+                  <table class="table table-dark" id="sfiaSkillsTable">
+                    <tr id="confMgmtcloudSfiaSkillsTableRow">
+                      <th scope="row">Configuration Management</th>
+                      <td><p>Ansible, Helm</p></td>
+                    </tr>
+                    <tr id="cloudSfiaSkillsTableRow">
+                      <th scope="row">Cloud</th>
+                      <td><p>AWS EC2, AWS EKS, AWS Lambda, AWS S3</p></td>
+                    </tr>
+                    <tr id="dataModelSfiaSkillsTableRow">
+                      <th scope="row">Data modelling and design</th>
+                      <td><p>Nifi</p></td>
+                    </tr>
+                    <tr id="releaseMgmtSfiaSkillsTableRow">
+                      <th scope="row">Release and deployment</th>
+                      <td><p>Ansible, Helm, Maven, Nexus</p></td>
+                    </tr>
+                    <tr id="softDesignSfiaSkillsTableRow">
+                      <th scope="row">Software Design</th>
+                      <td><p>Draw.io, UML</p></td>
+                    </tr>
+                    <tr id="softDevSfiaSkillsTableRow">
+                      <th scope="row">Software Development</th>
+                      <td><p>Java</p></td>
+                    </tr>
+                    <tr id="sysIntSfiaSkillsTableRow">
+                      <th scope="row">Systems Integration and Build</th>
+                      <td><p>Bamboo, Concourse CI, Maven</p></td>
+                    </tr>
+                    <tr id="testingSfiaSkillsTableRow">
+                      <th scope="row">Testing</th>
+                      <td><p>JUnit</p></td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="experienceHeader">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#experienceCollapseElement" aria-expanded="false" aria-controls="experienceCollapseElement">
+                Experience
+              </button>
+            </h2>
+            <div id="experienceCollapseElement" class="accordion-collapse collapse" aria-labelledby="experienceHeader" data-bs-parent="#bioAccordionParts">
+              <div class="accordion-body">
+
+                <table class="table table-dark">
+                  <tr>
+                    <th scope="row">Project</th>
+                    <td><p>UK Legally Compliant Object Store</p></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Role</th>
+                    <td><p>Technical Architect</p></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Description</th>
+                    <td>
+                      <p></p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -77,7 +160,7 @@
       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
         <div>Get connected with us on social networks</div>
         <div>
-          <a class="me-4 text-reset" href=""><i class="fab fa-facebook"></i></a>
+          <a class="me-4 text-reset" href="https://www.facebook.com/groups/350073883439443"><i class="fab fa-facebook"></i></a>
           <a class="me-4 text-reset" href="https://twitter.com/PallasUK"><i class="fab fa-twitter"></i></a>
           <a class="me-4 text-reset" href=""><i class="fab fa-instagram"></i></a>
           <a class="me-4 text-reset" href=""><i class="fab fa-linkedin"></i></a>

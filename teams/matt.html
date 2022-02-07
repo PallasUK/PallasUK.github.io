@@ -5,7 +5,7 @@
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Provides information on Matthew Barrett one of Pallas co-founders." name="description">
   <meta content="Pallas, people, team" name="keywords">
-  <meta content="Stephen Crocker" name="author">
+  <meta content="Matthew Barrett" name="author">
   <title>Matt Barrett</title>
 
   <!-- Bootstrap core CSS -->
@@ -38,7 +38,7 @@
           <a aria-current="page" class="nav-link" href="../" id="navbarLinkHome">Home</a>
         </li>
         <li class="nav-item">
-          <a aria-current="page" class="nav-link" href="../services" id="navbarLinkHome">Services</a>
+          <a aria-current="page" class="nav-link" href="../services" id="navbarLinkServices">Services</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="../teams" id="navbarLinkTeam">Team</a>
@@ -52,9 +52,108 @@
   <!-- Describe the Members of the organisation -->
   <div class="container-fluid content">
     <div class="row content-row">
+      <div class="col-sm-6 col-md-5 col-lg-3 col-xl-3 d-flex card" id="bioImage">
+        <img alt="Matt and his daughter hiking in woods" class="bd-placeholder-img card-img-top img-fluid content mx-auto" height="auto" src="../images/team/matt-large.jpg" width="100%"/>
+        <div class="text-center py-3" id="bioSocialMedia">
+          <a class="me-5 text-reset" href="https://twitter.com/mbarrett84" id="bioTwitter"><i class="fab fa-twitter"></i></a>
+          <a class="me-5 text-reset" href="https://uk.linkedin.com/in/matthew-barrett-48168033" id="bioLinkedin"><i class="fab fa-linkedin"></i></a>
+          <a class="text-reset" href="https://github.com/Matthew-Barrett" id="bioGitHub"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-7 col-lg-9 col-xl-9" id="bio">
+        <h2>Matt - Founder</h2>
+        <p>Matt has been developing large scale structured data analysis for years. Bringing knowledge on how to secure systems and process vast amounts of data on small budgets while keeping users happy.</p>
+        <p>He can usually be found hurtling down mountain sides on his mountain bike, or hiking with his wife and daughter.</p>
+        <div class="accordion" id="bioAccordionParts">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="skillsAndTechHeader">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#skillsAndTechCollapseElement" aria-expanded="true" aria-controls="skillsAndTechCollapseElement">
+                Skills & Technologies
+              </button>
+            </h2>
+            <div id="skillsAndTechCollapseElement" class="accordion-collapse collapse" aria-labelledby="skillsAndTechHeader" data-bs-parent="#bioAccordionParts">
+              <div class="accordion-body">
+                <div class="table-responsive">
+                  <table class="table table-dark" id="sfiaSkillsTable">
+                    <tr id="confMgmtcloudSfiaSkillsTableRow">
+                      <th scope="row">Configuration Management</th>
+                      <td><p>Ansible, Helm</p></td>
+                    </tr>
+                    <tr id="cloudSfiaSkillsTableRow">
+                      <th scope="row">Cloud</th>
+                      <td><p>AWS EC2, AWS EKS, AWS Lambda, AWS S3</p></td>
+                    </tr>
+                    <tr id="dataModelSfiaSkillsTableRow">
+                      <th scope="row">Data modelling and design</th>
+                      <td><p>Nifi</p></td>
+                    </tr>
+                    <tr id="releaseMgmtSfiaSkillsTableRow">
+                      <th scope="row">Release and deployment</th>
+                      <td><p>Ansible, Helm, Maven, Nexus</p></td>
+                    </tr>
+                    <tr id="softDesignSfiaSkillsTableRow">
+                      <th scope="row">Software Design</th>
+                      <td><p>Draw.io, Swagger.io, UML</p></td>
+                    </tr>
+                    <tr id="softDevSfiaSkillsTableRow">
+                      <th scope="row">Software Development</th>
+                      <td><p>Java, Ruby, Node.JS, Python</p></td>
+                    </tr>
+                    <tr id="sysIntSfiaSkillsTableRow">
+                      <th scope="row">Systems Integration and Build</th>
+                      <td><p>Jenkins, Maven, Nexus, NPM</p></td>
+                    </tr>
+                    <tr id="testingSfiaSkillsTableRow">
+                      <th scope="row">Testing</th>
+                      <td><p>JUnit, Rake, Watir</p></td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="experienceHeader">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#experienceCollapseElement" aria-expanded="false" aria-controls="experienceCollapseElement">
+                Experience
+              </button>
+            </h2>
+            <div id="experienceCollapseElement" class="accordion-collapse collapse" aria-labelledby="experienceHeader" data-bs-parent="#bioAccordionParts">
+              <div class="accordion-body">
+
+                <table class="table table-dark">
+                  <tr>
+                    <th scope="row">Project</th>
+                    <td><p>Structured Data Storage Platform</p></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Role</th>
+                    <td><p>Technical Lead</p></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Description</th>
+                    <td>
+                      <p>Matt has led a number of development teams and successfully delivered 5 mission critical projects, delivering at national and international level. He has recently been the lead of an Agile DevSecOps team developing and supporting a service used by 1000 people each day.</p>
+                      <p> He provides consultant and support to the users of the service, helping to support training as well as guidance on some of the complex data management activities they can perform. He has been frequently called out by users as going above and beyond, helpful and a joy to work with. </p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+<main>
+  <!-- Describe the Members of the organisation -->
+  <div class="container-fluid content">
+    <div class="row content-row">
       <div class="col-md-3 col-lg-3 col-xl-3 d-flex card">
-        <img alt="Matt and his daughter hiking in woods" class="bd-placeholder-img card-img-top img-fluid content mx-auto" height="auto" src="../images/team/matt-large.jpg"
-             width="100%"/>
+        <img alt="Matt and his daughter hiking in woods" class="bd-placeholder-img card-img-top img-fluid content mx-auto" height="auto" src="../images/team/matt-large.jpg" width="100%"/>
       </div>
       <div class="col-md-9 col-lg-9 col-xl-9">
         <h2>Matt - Founder</h2>
@@ -78,7 +177,7 @@
       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
         <div>Get connected with us on social networks</div>
         <div>
-          <a class="me-4 text-reset" href=""><i class="fab fa-facebook"></i></a>
+          <a class="me-4 text-reset" href="https://www.facebook.com/groups/350073883439443"><i class="fab fa-facebook"></i></a>
           <a class="me-4 text-reset" href="https://twitter.com/PallasUK"><i class="fab fa-twitter"></i></a>
           <a class="me-4 text-reset" href=""><i class="fab fa-instagram"></i></a>
           <a class="me-4 text-reset" href=""><i class="fab fa-linkedin"></i></a>
