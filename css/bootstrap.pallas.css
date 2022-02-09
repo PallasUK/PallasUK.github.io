@@ -20,6 +20,10 @@ span.text-muted {
     font-style: italic;
 }
 
+.accordion-body {
+  padding: 0;
+}
+
 /*
  * Carousel CSS to keep things well spaced
  * -------------------------------------------------- */
@@ -48,10 +52,20 @@ img.content {
   padding-left: 1rem !important;
 }
 
-div.content-row {
-  padding-top: 3rem !important;
-  padding-right: 3rem !important;
-  padding-left: 3rem !important;
+@media only screen and (max-width: 540px) {
+  div.content-row {
+    padding-top: 3rem !important;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+}
+
+@media only screen and (min-width: 540px) {
+  div.content-row {
+    padding-top: 3rem !important;
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+  }
 }
 
 /*
@@ -72,7 +86,7 @@ div.content-row {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 540px) {
   .carousel-item {
     height: 24rem;
   }
@@ -85,7 +99,7 @@ div.content-row {
 
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 540px) {
   .carousel-item {
     height: 18rem;
   }
