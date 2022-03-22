@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:i="&amp;ns_ai;"
+   xmlns:i="&amp;#38;#38;ns_ai;"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -35,11 +35,12 @@
    showgrid="false"
    inkscape:zoom="1.149"
    inkscape:cx="500"
-   inkscape:cy="110.40627"
+   inkscape:cy="284.47067"
    inkscape:window-x="0"
    inkscape:window-y="0"
    inkscape:window-maximized="1"
-   inkscape:current-layer="g1930" />
+   inkscape:current-layer="g1930"
+   inkscape:document-rotation="0" />
 <style
    type="text/css"
    id="style1647">
@@ -210,7 +211,7 @@
    id="polygon1784" />
 		<g
    id="g1812"
-   transform="translate(-41.071853,-6.4605891)">
+   transform="translate(-41.638168,-10.3883)">
 			
 		<text
    xml:space="preserve"
@@ -273,16 +274,16 @@
 	<text
    xml:space="preserve"
    style="font-size:21.9516px;line-height:1.25;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal'"
-   x="545.91693"
-   y="626.55231"
+   x="546.75714"
+   y="636.93323"
    id="text1947"><tspan
      sodipodi:role="line"
      id="tspan1945"
-     x="545.91693"
-     y="626.55231"
+     x="546.75714"
+     y="636.93323"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff">Design</tspan></text><g
    id="g1812-2"
-   transform="translate(493.01119,1.0697709)"><text
+   transform="translate(487.91367,-5.2811788)"><text
      xml:space="preserve"
      style="font-size:21.9516px;line-height:1.25;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal'"
      x="244.38078"
@@ -306,7 +307,7 @@
        y="685.20508"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff">Develop</tspan></text></g><g
    id="g1812-2-7"
-   transform="translate(252.62615,-375.04182)"><text
+   transform="translate(261.21489,-368.47568)"><text
      xml:space="preserve"
      style="font-size:21.9516px;line-height:1.25;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal'"
      x="244.38078"
@@ -318,7 +319,7 @@
        y="685.20508"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff">Test</tspan></text></g><g
    id="g1812-2-1"
-   transform="translate(46.357829,-335.03717)"><text
+   transform="translate(44.394346,-333.33305)"><text
      xml:space="preserve"
      style="font-size:21.9516px;line-height:1.25;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal'"
      x="244.38078"
@@ -345,26 +346,26 @@
    fill="#073652"
    font-family="' Poppins-Bold '"
    font-size="55.3303px"
-   x="401.39682"
-   y="512.23431"
+   x="410.34827"
+   y="511.97882"
    transform="scale(0.97383102,1.0268722)"
    style="font-size:45.3111px;font-family:' Poppins-Bold ';fill:#2892de;fill-opacity:1;stroke-width:0.818921"><tspan
      sodipodi:role="line"
      id="tspan2255"
-     x="401.39682"
-     y="512.23431"
+     x="410.34827"
+     y="511.97882"
      style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:45.3333px;font-family:Poppins;-inkscape-font-specification:'Poppins, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2892de;fill-opacity:1;stroke-width:0.818921">Scrum</tspan></text><text
    id="shape22-8"
    fill="#073652"
    font-family="' Poppins-Bold '"
    font-size="55.3303px"
-   x="419.14191"
+   x="426.51053"
    y="459.82614"
    transform="scale(0.97383102,1.0268722)"
    style="font-size:45.3111px;font-family:' Poppins-Bold ';fill:#2892de;fill-opacity:1;stroke-width:0.818921"><tspan
      sodipodi:role="line"
      id="tspan2255-3"
-     x="419.14191"
+     x="426.51053"
      y="459.82614"
      style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:45.3333px;font-family:Poppins;-inkscape-font-specification:'Poppins, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2892de;fill-opacity:1;stroke-width:0.818921">Agile</tspan></text></g>
 </switch>
