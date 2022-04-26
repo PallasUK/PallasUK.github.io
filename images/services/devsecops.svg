@@ -116,7 +116,10 @@
    d="M194.6 82C222.9 82 248.4 93.9 266.8 113.1L319.4 60.6C287.7 27.6 243.5 7.1 194.7 7C153 6.9 110.6 24.3 68.1 58.6L121.1 111.8C143.3 95.1 169 81.9 194.6 82Z"
    id="path29" />
   </clipPath>
- </defs>
+ 
+   
+   
+  </defs>
 <g
    id="layer0"
    transform="matrix(1.0708249,0,0,0.4761976,-48.317195,102.97979)">
@@ -394,34 +397,29 @@
    fill="#073652"
    font-family="' Poppins-Bold '"
    font-size="55.3303px"
-   x="0pt"
-   y="31.171875pt"
-   transform="matrix(0.744744,0,0,1.76592,464.255,499.842)"
-   style="fill:#2892de;fill-opacity:1;font-size:55.3574px;font-family:Poppins;-inkscape-font-specification:'Poppins, Semi-Bold';font-weight:600;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"><tspan
+   x="712.00421"
+   y="372.26569"
+   transform="scale(0.64940854,1.5398627)"
+   style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:63.4841px;font-family:Poppins;-inkscape-font-specification:'Poppins, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2892de;fill-opacity:1;stroke-width:1.1468"><tspan
      id="tspan98"
-     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:55.35741511px;font-family:Poppins;-inkscape-font-specification:'Poppins, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2892de;fill-opacity:1;">OPS</tspan></text>
-  <g
-   id="group26"
-   transform="translate(310.42794,227.88113)"
-   fill="none">
-   <text
+     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:63.4841px;font-family:Poppins;-inkscape-font-specification:'Poppins, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2892de;fill-opacity:1;stroke-width:1.1468">OPS</tspan></text>
+  <text
    id="shape24"
    fill="#073652"
    font-family="' Poppins-Bold '"
    font-size="55.3303px"
-   x="3.6751838"
-   y="48.59721"
+   x="477.91858"
+   y="211.77773"
    transform="scale(0.64940854,1.5398627)"
    style="font-size:63.453px;font-family:' Poppins-Bold ';fill:#2892de;fill-opacity:1;stroke-width:1.1468"><tspan
      id="tspan101"
-     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:63.4841px;font-family:Poppins;-inkscape-font-specification:'Poppins, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2892de;fill-opacity:1;stroke-width:1.1468">SEC</tspan></text>
-   <path
+     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:63.4841px;font-family:Poppins;-inkscape-font-specification:'Poppins, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2892de;fill-opacity:1;stroke-width:1.1468">SEC</tspan></text><path
    id="shape25"
-   transform="matrix(0.816605,0,0,1.76592,26.2814,85.3896)"
    fill="#073652"
-   d="M 29.9,0 15.2,19.5 0,0.9 Z"
-   style="fill:#2892de;fill-opacity:1" />
-  </g>
+   d="m 362.47229,337.01397 -12.54405,33.44807 -11.8821,-33.82327 z"
+   style="fill:#2892de;fill-opacity:1;stroke-width:1.20086"
+   inkscape:transform-center-x="2.7249104"
+   inkscape:transform-center-y="-3.0449597" />
   <path
    id="shape26"
    transform="matrix(0.816605,0,0,1.76592,91.9498,220.209)"
