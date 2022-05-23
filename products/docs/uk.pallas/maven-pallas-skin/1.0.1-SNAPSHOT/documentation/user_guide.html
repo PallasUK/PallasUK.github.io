@@ -121,9 +121,9 @@
         &lt;menu ref=&quot;reports&quot; /&gt;
     &lt;/body&gt;
 &lt;/project&gt;
-</code></pre></div>
-<p>###TopBar and/or sideBar
-The skin supports different layouts, enabling/disabling the left sidebar menu and the topbar menu.  Users have just play with flags in the <code>custom.pallasSkin</code> element in <code>site.xml</code>:</p>
+</code></pre></div><section>
+<h3><a name="TopBar_and.2For_sideBar"></a>TopBar and/or sideBar</h3>
+<p>The skin supports different layouts, enabling/disabling the left sidebar menu and the topbar menu.  Users have just play with flags in the <code>custom.pallasSkin</code> element in <code>site.xml</code>:</p>
 
 <div class="source"><pre class="prettyprint linenums"><code class="language-xml">&lt;project name=&quot;xxx&quot;&gt;
     &lt;custom&gt;
@@ -141,8 +141,8 @@ The skin supports different layouts, enabling/disabling the left sidebar menu an
 <li>topbar only;</li>
 <li>both side/top bars;</li>
 <li>none at all.</li>
-</ul>
-<p>###TopBarIcon</p>
+</ul></section><section>
+<h3><a name="TopBarIcon"></a>TopBarIcon</h3>
 <p>When users decide to enable the topbar, they can plug a small icon/logo there (typically 108*20 px) just configuring
 the <code>custom.pallasSkin.topBarIcon</code> element in <code>site.xml</code>:</p>
 
@@ -161,8 +161,8 @@ the <code>custom.pallasSkin.topBarIcon</code> element in <code>site.xml</code>:<
     &lt;/custom&gt;
     [...]
 &lt;/project&gt;
-</code></pre></div>
-<p>###TopBarContainerStyle</p>
+</code></pre></div></section><section>
+<h3><a name="TopBarContainerStyle"></a>TopBarContainerStyle</h3>
 <p>You can configure the style attribute value of the div container for your topbar</p>
 
 <div class="source"><pre class="prettyprint linenums"><code class="language-xml">&lt;project name=&quot;xxx&quot;&gt;
@@ -175,9 +175,9 @@ the <code>custom.pallasSkin.topBarIcon</code> element in <code>site.xml</code>:<
         &lt;/custom&gt;
     [...]
 &lt;/project&gt;
-</code></pre></div>
-<p>###NavBarStyle
-You can configure style of your top bar nav (since bootstrap 2.1.0 is not anymore black by default).
+</code></pre></div></section><section>
+<h3><a name="NavBarStyle"></a>NavBarStyle</h3>
+<p>You can configure style of your top bar nav (since bootstrap 2.1.0 is not anymore black by default).
 Use navbar-inverse to have the black one.</p>
 
 <div class="source"><pre class="prettyprint linenums"><code class="language-xml">&lt;project name=&quot;xxx&quot;&gt;
@@ -190,98 +190,8 @@ Use navbar-inverse to have the black one.</p>
     &lt;/custom&gt;
     [...]
 &lt;/project&gt;
-</code></pre></div>
-<p>###Matomo (e.g. Apache Analytics)</p>
-<p>Users can optionally enable &#xab;Matomo&#xbb;.
-How to configure it for Apache Analytics, the &#xab;options&#xbb; element will contain some configuration (here some privacy setup):</p>
-
-<div class="source"><pre class="prettyprint linenums"><code class="language-xml">&lt;project name=&quot;xxx&quot;&gt;
-    [...]
-    &lt;custom&gt;
-        &lt;matomo&gt;
-            &lt;siteId&gt;xxx&lt;/siteId&gt;
-            &lt;url&gt;https://analytics.apache.org&lt;/url&gt;
-            &lt;options&gt;
-                &lt;disableCookies/&gt;
-                &lt;trackPageView/&gt;
-                &lt;enableLinkTracking/&gt;
-            &lt;/options&gt;
-        &lt;/matomo&gt;
-    &lt;/custom&gt;
-    [...]
-&lt;/project&gt;
-</code></pre></div>
-<p>###GoogleAnalytics</p>
-<p>Users can optionally enable &#xab;Google Analytics&#xbb; for the generated site:</p>
-
-<div class="source"><pre class="prettyprint linenums"><code class="language-xml">&lt;project name=&quot;xxx&quot;&gt;
-    [...]
-            &lt;googleAnalytics&gt;UA-12345...&lt;/googleAnalytics&gt;
-    [...]
-&lt;/project&gt;
-</code></pre></div>
-<p>By default, <code>forceSSL</code> and <code>anonymizeIp</code> are enabled. You can disable both, but this might be illegal in several countries or regions (e.g., in the EU due to GDPR):</p>
-
-<div class="source"><pre class="prettyprint linenums"><code class="language-xml">&lt;project name=&quot;xxx&quot;&gt;
-    [...]
-&lt;googleAnalytics&gt;UA-12345...&lt;/googleAnalytics&gt;
-    [...]
-    &lt;custom&gt;
-        &lt;pallasSkin&gt;
-            &lt;googleAnalytics&gt;
-                &lt;anonymizeIp&gt;true/false&lt;/anonymizeIp&gt;
-                &lt;forceSSL&gt;true/false&lt;/forceSSL&gt;
-            &lt;/googleAnalytics&gt;
-        &lt;/pallasSkin&gt;
-    &lt;/custom&gt;
-    [...]
-&lt;/project&gt;
-</code></pre></div>
-<p>###GoogleSearch</p>
-<p>Users can optionally enable the &#xab;Google Search&#xbb; for the generated site, requirements are:</p>
-<ul>
-
-<li>the <code>project.url</code> property in <code>pom.xml</code>, unless the <code>custom.pallasSkin.googleSearch.sitesearch</code> property is set in the <code>site.xml</code>:</li>
-</ul>
-
-<div class="source"><pre class="prettyprint linenums"><code class="language-xml">&lt;project name=&quot;xxx&quot;&gt;
-    [...]
-            &lt;url&gt;http://maven.apache.org/skins/maven-pallas-skin&lt;/url&gt;
-    [...]
-&lt;/project&gt;
-</code></pre></div>
-<ul>
-
-<li>the <code>custom.pallasSkin.googleSearch</code> element in <code>site.xml</code>:</li>
-</ul>
-
-<div class="source"><pre class="prettyprint linenums"><code class="language-xml">&lt;project name=&quot;xxx&quot;&gt;
-    [...]
-    &lt;custom&gt;
-        &lt;pallasSkin&gt;
-            &lt;googleSearch&gt;
-                &lt;sitesearch/&gt;
-            &lt;/googleSearch&gt;
-        &lt;/pallasSkin&gt;
-    &lt;/custom&gt;
-    [...]
-&lt;/project&gt;
-</code></pre></div>
-<p>By default, the search form:</p>
-<ul>
-
-<li>
-
-<p>is not enabled; adding <code>custom.pallasSkin.googleSearch</code> is enough to enable the searchbox.</p>
-</li>
-<li>
-
-<p>is rendered in the sidebar, if the topbar only is available it will be rendered there.</p>
-</li>
-</ul>
-<p>External links are either rendered in the sidebar or the topbar. When both sidebar and topbar are enabled,
-they are rendered as dropdown in the topbar only.</p>
-<p>###SourceLineNumbers</p>
+</code></pre></div></section><section>
+<h3><a name="SourceLineNumbers"></a>SourceLineNumbers</h3>
 <p>Source code sections are enhanced by {{{<a class="externalLink" href="https://github.com/google/code-prettify">https://github.com/google/code-prettify</a>}Google Code Prettify}}, users can
 optionally enable line numbers rendering (disabled by default):</p>
 
@@ -294,8 +204,8 @@ optionally enable line numbers rendering (disabled by default):</p>
         &lt;/custom&gt;
     [...]
 &lt;/project&gt;
-</code></pre></div>
-<p>###GitHub ribbons</p>
+</code></pre></div></section><section>
+<h3><a name="GitHub_ribbons"></a>GitHub ribbons</h3>
 <p>Pallas-skin supports <a class="externalLink" href="https://github.com/blog/273-github-ribbons">GitHub ribbons</a> to simplify the <code>Fork me on GitHub</code> banner integration. Users must define:</p>
 <ul>
 
@@ -317,8 +227,8 @@ optionally enable line numbers rendering (disabled by default):</p>
     &lt;/custom&gt;
     [...]
 &lt;/project&gt;
-</code></pre></div>
-<p>###Project profile</p>
+</code></pre></div></section><section>
+<h3><a name="Project_profile"></a>Project profile</h3>
 <p>As shown in (MojoHaus Maven plugins list)[<a class="externalLink" href="http://www.mojohaus.org/plugins.html">http://www.mojohaus.org/plugins.html</a>) plugins life-cycle are characterized by
 different status/stages:</p>
 <ul>
@@ -340,7 +250,7 @@ are not using a production ready software:</p>
     &lt;/custom&gt;
     [...]
 &lt;/project&gt;
-</code></pre></div></section><section>
+</code></pre></div></section></section><section>
 <h2><a name="Maven_configuration"></a>Maven configuration</h2>
 <p>The maven site plugin currently expect documentation to sit in specific paths <a class="externalLink" href="https://maven.apache.org/plugins/maven-site-plugin/examples/creating-content.html">as documented on the maven-site-plugin website</a>.</p>
 <p>This creates a problem as the maven-site-plugin converts the documentation path as part of constructing the Maven site. So for example if you have a document on the following path <code>src/site/markdown/example.md</code> it might reference an image found under <code>src/site/resources/images/diagram.png</code>. For this to be navigatable through markdown viewers built into code repositories you would construct your image reference like so</p>
