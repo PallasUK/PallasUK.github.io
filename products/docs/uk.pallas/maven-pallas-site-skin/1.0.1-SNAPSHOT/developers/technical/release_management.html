@@ -1,0 +1,187 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content="#generatedBy()" />
+    <title>Pallas Skin for Maven Sites &#x2013; Release Strategy</title>
+    <link rel="stylesheet" href="../../css/pallas-1.0.1-SNAPSHOT.min.css" />
+    <link rel="stylesheet" href="../../css/site.css" />
+  </head>
+  <body>
+
+  <header>
+
+    <nav id="topbar" class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark ">
+      <a class="navbarLinkLogo navbar-brand ps-2" href="/" id="navbarLinkLogo">
+        <img alt="Pallas" class="d-inline-block" id="navbarImgLogo" src="../../images/logos/topbar-logo.png" style=; height=50px; width=60px; >
+      </a>
+      <a class="navbar-brand" href="/" id="navbarLinkName">Pallas Skin for Maven Sites</a>
+      <!-- Part of the navbar link collapse mechanisim. -->
+      <button aria-controls="navbarDivCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarDivCollapse"
+            data-bs-toggle="collapse" id="navbarBtnCollapse" type="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navbarDivCollapse" id="navbarDivCollapse">
+        <!-- Added so the unordered list can left justify. -->
+                <div class="container-fluid" style="">
+            <ul class="navbar-nav">
+            <li class="nav-item dropdown" id="OverviewNavbarDropdownUnorderedList">
+              <a class="nav-link dropdown-toggle" href="#" id="OverviewNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Overview</a>
+              <ul class="dropdown-menu" aria-labelledby="OverviewNavbarDropdown">
+                    <li class="dropdown-item" id="WelcomeNavbarDropdownMenu">
+                        <a class="nav-link dropdown-item" href="../../overview/welcome.html" $item.target id="WelcomeNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Welcome</a>
+                    </li>
+                    <li class="dropdown-item" id="Getting StartedNavbarDropdownMenu">
+                        <a class="nav-link dropdown-item" href="../../overview/getting_started.html" $item.target id="Getting StartedNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Getting Started</a>
+                    </li>
+                    <li class="dropdown-item" id="FAQNavbarDropdownMenu">
+                        <a class="nav-link dropdown-item" href="../../overview/faq.html" $item.target id="FAQNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">FAQ</a>
+                    </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown" id="DocumentationNavbarDropdownUnorderedList">
+              <a class="nav-link dropdown-toggle" href="#" id="DocumentationNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Documentation</a>
+              <ul class="dropdown-menu" aria-labelledby="DocumentationNavbarDropdown">
+                    <li class="dropdown-item" id="User GuideNavbarDropdownMenu">
+                        <a class="nav-link dropdown-item" href="../../documentation/user_guide.html" $item.target id="User GuideNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">User Guide</a>
+                    </li>
+                    <li class="dropdown-item" id="DocumentationNavbarDropdownSubMenu">
+                      <a class="nav-link dropdown-toggle" href="#Developer GuideNavbarDropdownUL" id="Developer GuideNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Developer Guide</a>
+                      <ul id="Developer GuideNavbarDropdownUL" class="submenu dropdown-menu">
+                          <li>
+                            <a class="nav-link droptdown-item" href="../../documentation/developer_guides/developer_guide.html" $subitem.target title="Building Software Project">Building Software Project</a>
+                          </li>
+                      </ul>
+                    </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown" id="DevelopersNavbarDropdownUnorderedList">
+              <a class="nav-link dropdown-toggle" href="#" id="DevelopersNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Developers</a>
+              <ul class="dropdown-menu" aria-labelledby="DevelopersNavbarDropdown">
+                    <li class="dropdown-item" id="BuildingNavbarDropdownMenu">
+                        <a class="nav-link dropdown-item" href="../../developers/technical/building_project.html" $item.target id="BuildingNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Building</a>
+                    </li>
+                    <li class="dropdown-item" id="ReleaseNavbarDropdownMenu">
+                        <a class="nav-link dropdown-item" href="../../developers/technical/release_project.html" $item.target id="ReleaseNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Release</a>
+                    </li>
+                    <li class="dropdown-item" id="Development ProcessNavbarDropdownMenu">
+                        <a class="nav-link dropdown-item" href="../../developers/technical/development_workflow.html" $item.target id="Development ProcessNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Development Process</a>
+                    </li>
+                    <li class="dropdown-item" id="Release ManagementNavbarDropdownMenu">
+                        <a class="nav-link dropdown-item" href="../../developers/technical/release_project.html" $item.target id="Release ManagementNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Release Management</a>
+                    </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown" id="Project DocumentationNavbarDropdownUnorderedList">
+              <a class="nav-link dropdown-toggle" href="#" id="Project DocumentationNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Project Documentation</a>
+              <ul class="dropdown-menu" aria-labelledby="Project DocumentationNavbarDropdown">
+                    <li class="dropdown-item" id="Project DocumentationNavbarDropdownSubMenu">
+                      <a class="nav-link dropdown-toggle" href="#Project InformationNavbarDropdownUL" id="Project InformationNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Project Information</a>
+                      <ul id="Project InformationNavbarDropdownUL" class="submenu dropdown-menu">
+                          <li>
+                            <a class="nav-link droptdown-item" href="../../dependency-info.html" $subitem.target title="Dependency Information">Dependency Information</a>
+                          </li>
+                          <li>
+                            <a class="nav-link droptdown-item" href="../../distribution-management.html" $subitem.target title="Distribution Management">Distribution Management</a>
+                          </li>
+                          <li>
+                            <a class="nav-link droptdown-item" href="../../index.html" $subitem.target title="About">About</a>
+                          </li>
+                          <li>
+                            <a class="nav-link droptdown-item" href="../../licenses.html" $subitem.target title="Licenses">Licenses</a>
+                          </li>
+                          <li>
+                            <a class="nav-link droptdown-item" href="../../plugin-management.html" $subitem.target title="Plugin Management">Plugin Management</a>
+                          </li>
+                          <li>
+                            <a class="nav-link droptdown-item" href="../../plugins.html" $subitem.target title="Plugins">Plugins</a>
+                          </li>
+                          <li>
+                            <a class="nav-link droptdown-item" href="../../scm.html" $subitem.target title="Source Code Management">Source Code Management</a>
+                          </li>
+                          <li>
+                            <a class="nav-link droptdown-item" href="../../summary.html" $subitem.target title="Summary">Summary</a>
+                          </li>
+                          <li>
+                            <a class="nav-link droptdown-item" href="../../team.html" $subitem.target title="Team">Team</a>
+                          </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-item" id="Project DocumentationNavbarDropdownSubMenu">
+                      <a class="nav-link dropdown-toggle" href="#Project ReportsNavbarDropdownUL" id="Project ReportsNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Project Reports</a>
+                      <ul id="Project ReportsNavbarDropdownUL" class="submenu dropdown-menu">
+                          <li>
+                            <a class="nav-link droptdown-item" href="../../changelog.html" $subitem.target title="Change Log">Change Log</a>
+                          </li>
+                          <li>
+                            <a class="nav-link droptdown-item" href="../../file-activity.html" $subitem.target title="File Activity">File Activity</a>
+                          </li>
+                          <li>
+                            <a class="nav-link droptdown-item" href="../../dev-activity.html" $subitem.target title="Developer Activity">Developer Activity</a>
+                          </li>
+                      </ul>
+                    </li>
+              </ul>
+            </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+  <main role="main">
+    <!-- Describe the Members of the organisation -->
+    <div class="container-fluid content">
+      <div class="row content-row">
+<section>
+<h2><a name="Release_Strategy"></a>Release Strategy</h2>
+<p>This section outlines</p></section><section>
+<h2><a name="Branch_Strategy"></a>Branch Strategy</h2>
+<p>All software will be hel</p></section><section>
+<h2><a name="Versioning"></a>Versioning</h2>
+<p>All software developed will follow semantic versioning principles, these are outlined below:</p>
+<ol style="list-style-type: decimal">
+
+<li>Software using Semantic Versioning MUST declare a public API. This API could be declared in the code itself or exist strictly in documentation.</li>
+<li>A normal version number MUST take the form X.Y.Z where X, Y, and Z are non-negative integers, and MUST NOT contain leading zeroes. X is the major version, Y is the minor version, and Z is the patch version. Each element MUST increase numerically. For instance: 1.9.0 -&gt; 1.10.0 -&gt; 1.11.0.</li>
+<li>Once a versioned package has been released, the contents of that version MUST NOT be modified. Any modifications MUST be released as a new version.</li>
+<li>Major version zero (0.y.z) is for initial development. Anything MAY change at any time. The public API SHOULD NOT be considered stable.</li>
+<li>Version 1.0.0 defines the public API. The way in which the version number is incremented after this release is dependent on this public API and how it changes.</li>
+<li>Patch version Z (x.y.Z | x &gt; 0) MUST be incremented if only backwards compatible bug fixes are introduced. A bug fix is defined as an internal change that fixes incorrect behavior.</li>
+<li>Minor version Y (x.Y.z | x &gt; 0) MUST be incremented if new, backwards compatible functionality is introduced to the public API. It MUST be incremented if any public API functionality is marked as deprecated. It MAY be incremented if substantial new functionality or improvements are introduced within the private code. It MAY include patch level changes. Patch version MUST be reset to 0 when minor version is incremented.</li>
+<li>Major version X (X.y.z | X &gt; 0) MUST be incremented if any backwards incompatible changes are introduced to the public API. It MAY also include minor and patch level changes. Patch and minor versions MUST be reset to 0 when major version is incremented.</li>
+<li>A pre-release version MAY be denoted by appending a hyphen and a series of dot separated identifiers immediately following the patch version. Identifiers MUST comprise only ASCII alphanumerics and hyphens [0-9A-Za-z-]. Identifiers MUST NOT be empty. Numeric identifiers MUST NOT include leading zeroes. Pre-release versions have a lower precedence than the associated normal version. A pre-release version indicates that the version is unstable and might not satisfy the intended compatibility requirements as denoted by its associated normal version. Examples: 1.0.0-alpha, 1.0.0-alpha.1, 1.0.0-0.3.7, 1.0.0-x.7.z.92, 1.0.0-x-y-z.&#x2013;.</li>
+</ol></section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="page-footer font-small pt-4 bg-dark text-light">
+    <div class="container-fluid text-md-left">
+        <div class="row">
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h5 class="text-uppercase fw-bold mb-4">Contact</h5>
+            <!-- <p><i class="fas fa-home me-3"></i>UK</p> -->
+            <a href="mailto:info@pallas.uk"><i class="fas fa-envelope me-3"></i>info@pallas.uk</a>
+            <p><i class="fas fa-phone me-3"></i>+44 7861 530488</p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <div>Get connected with us on social networks</div>
+            <div>
+              <a class="me-4 text-reset" href="https://www.facebook.com/groups/350073883439443"><i class="fab fa-facebook"></i></a>
+              <a class="me-4 text-reset" href="https://twitter.com/PallasUK"><i class="fab fa-twitter"></i></a>
+              <a class="me-4 text-reset" href=""><i class="fab fa-instagram"></i></a>
+              <a class="me-4 text-reset" href=""><i class="fab fa-linkedin"></i></a>
+              <a class="me-4 text-reset" href="https://github.com/PallasUK"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../../js/pallas-1.0.1-SNAPSHOT.min.js"></script>
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/017cb43275.js"></script>
+  </body>
+</html>
